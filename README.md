@@ -1,10 +1,4 @@
-                           _              
-                          (_) ___  _   _
-                          | |/ _ \| | | |
-                          | | (_) | |_| |
-                         _/ |\___/ \__, |
-                        |__/       |___/
-
+                          
             A package for capturing and analyzing network
          flow data and intraflow data, for network research,
               forensics, and security monitoring.
@@ -16,19 +10,19 @@ Addendum: For our most recent network fingerprinting tools and data, please see 
 
 ## Overview
 
-Joy is a BSD-licensed libpcap-based software package for extracting
+This is a libpcap-based software package for extracting
 data features from live network traffic or packet capture (pcap)
 files, using a flow-oriented model similar to that of IPFIX or
 Netflow, and then representing these data features in JSON.  It
 also contains analysis tools that can be applied to these data
-files.  Joy can be used to explore data at scale, especially
+files.  This can be used to explore data at scale, especially
 security and threat-relevant data.
 
 JSON is used in order to make the output easily consumable by data
 analysis tools.  While the JSON output files are somewhat verbose,
 they are reasonably small, and they respond well to compression.
 
-Joy can be configured to obtain intraflow data, that is, data and
+This can be configured to obtain intraflow data, that is, data and
 information about events that occur within a network flow,
 including:
 
@@ -52,7 +46,7 @@ including:
   * the name of the process associated with the flow, for flows
     originate or terminate on the host on which pcap is running.
 
-Joy is intended for use in security research, forensics, and for
+This research is intended for use in security research, forensics, and for
 the monitoring of (small scale) networks to detect vulnerabilities,
 threats and other unauthorized or unwanted behavior.  Researchers,
 administrators, penetration testers, and security operations teams
@@ -68,7 +62,7 @@ performing an activity is fully immersed in a feeling of energized
 focus, deep involvement, and joy.  This second meaning inspired
 the choice of name for this software package.
 
-Joy is alpha/beta software; we hope that you use it and benefit
+This is alpha/beta software; we hope that you use it and benefit
 from it, but do understand that it is not suitable for production
 use.
 
